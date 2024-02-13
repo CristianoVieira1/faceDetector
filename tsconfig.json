@@ -1,0 +1,42 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@scenes/*": ["src/scenes/*"],
+      "@utils/*": ["src/utils/*"],
+      "@types/*": ["src/types/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@context/*": ["src/context/*"],
+      "@components/*": ["src/components/*"],
+      "@routes/*": ["src/routes/*"],
+      "@assets/*": ["src/assets/*"],
+      "@services/*": ["src/services/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "allowJs": true,
+    "jsx": "react-native",
+    "lib": ["DOM", "ESNext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "typeRoots": ["styled.d.ts", "declaration.d.ts", "./node_modules/@types"]
+  },
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js"],
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.js",
+    "./src/**/*.tsx",
+    "./src/**/**/*.tsx",
+    "./src/**/**/*.ts",
+    "./App.tsx",
+    "./test-utils.tsx",
+    "./src/**/*",
+    "./src/**/*",
+    "./src/**/*.*"
+  ]
+}
