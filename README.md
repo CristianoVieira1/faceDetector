@@ -38,7 +38,7 @@ Além de oferecer uma experiência única de reconhecimento facial, o aplicativo
 Meu aplicativo de reconhecimento facial promete proporcionar uma experiência inesquecível para os usuários, combinando tecnologia avançada, interatividade e diversão. Estou ansioso para compartilhar mais detalhes em breve, então fique ligado para não perder nenhuma novidade!
 
 <h1 align="center">
-  <img alt="Logo" src="./src/assets/faceDetector.gif" width="180px">
+  <img alt="Logo" src="./src/assets/faceDetector.GIF" width="180px">
 </h1>
 
 ## 🚀 Tecnologias
